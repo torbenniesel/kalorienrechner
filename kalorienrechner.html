@@ -1,0 +1,393 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+<div class="caloryContainer">
+  
+  <div class="stepElement genderElement">
+    <div class="elementHeader">
+      <span class="side"></span>
+      <span class="center">1</span>
+      <span class="side"></span>
+    </div>
+    <div class="elementTitle">
+      <span>Bist du weiblich oder männlich?</span>
+    </div>
+    <div class="elementForm">
+      <div class="formRow">
+        <div class="formGroup">
+          <input type="radio" id="radioMale" name="gender" onChange="myFunction(this)"/>
+          <label for="radioMale" class="fa fa-male fa-2x"></label>
+          <input type="radio" id="radioFemale" name="gender" onChange="myFunction(this)"/>
+          <label for="radioFemale" class="fa fa-female fa-2x">
+          
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="stepElement">
+    <div class="elementHeader">
+      <span class="side"></span>
+      <span class="center">2</span>
+      <span class="side"></span>
+    </div>
+    <div class="elementTitle">
+      <span>Wie alt bist du?</span>
+    </div>
+    <div class="elementForm">
+      <div class="formRow">
+        <div class="formGroup">
+          <input type="text" />
+          <span>Jahre</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="stepElement">
+    <div class="elementHeader">
+      <span class="side"></span>
+      <span class="center">3</span>
+      <span class="side"></span>
+    </div>
+    <div class="elementTitle">
+      <span>Wieviel groß bist du?</span>
+    </div>
+    <div class="elementForm">
+      <div class="formRow">
+        <div class="formGroup">
+          <input type="text" />
+          <span>cm</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="stepElement">
+    <div class="elementHeader">
+      <span class="side"></span>
+      <span class="center">4</span>
+      <span class="side"></span>
+    </div>
+    <div class="elementTitle">
+      <span>Wieviel wiegst du?</span>
+    </div>
+    <div class="elementForm">
+      <div class="formRow">
+        <div class="formGroup">
+          <input type="text" />
+          <span>kg</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="stepElement">
+    <div class="elementHeader">
+      <span class="side"></span>
+      <span class="center">5</span>
+      <span class="side"></span>
+    </div>
+    <div class="elementTitle">
+      <span>Wie aktiv bist du im beruflichen Alltag?</span>
+    </div>
+    <div class="elementForm">
+      <div class="formRow">
+        <div class="formGroup activityFormGroup">
+          <div class="activityRow">
+            <input type="radio" id="sitting" name="activityLevel" onChange="myFunction(this)"/>
+            <label for="sitting"><span>Überwiegend sitzend</span></label>
+          </div>
+          <div class="activityRow">
+            <input type="radio" id="standing" name="activityLevel" onChange="myFunction(this)"/>
+            <label for="standing"><span>Überwiegend stehend</span></label>
+          </div>
+          <div class="activityRow">
+            <input type="radio" id="walking" name="activityLevel" onChange="myFunction(this)"/>
+            <label for="walking"><span>Überwiegend gehend</span></label>
+          </div>
+          <div class="activityRow">
+            <input type="radio" id="tiring" name="activityLevel" onChange="myFunction(this)"/>
+            <label for="tiring"><span>Überwiegend anstrengend</span></label>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="optInContainer">
+  <div class="optInElement">
+    <div class="elementHeader">
+      <span class="side"></span>
+      <span class="center">7</span>
+      <span class="side"></span>
+    </div>
+    <div class="elementTitle">
+      <span>Erhalte das Ergebnis!</span>
+    </div>
+    <div class="elementForm">
+      <div class="formRow">
+        <div class="formGroup">
+          <form class="layout_form cr_form cr_font" action="https://eu2.cleverreach.com/f/142747-143043/wcs/" method="post" target="_blank">
+	<div class="cr_body cr_page cr_font formbox">
+		<div class='non_sortable'>
+			
+		</div>
+		
+		<div class='editable_content'>
+		<div id="2958377" rel="email" class="cr_ipe_item ui-sortable musthave" >
+<label for="text2958377" class="itemname">E-Mail*</label> <input id="text2958377" name="email" value="" type="text"  />
+</div><div id="2958381" rel="captcha" class="cr_ipe_item ui-sortable musthave">
+	<script>
+	var RecaptchaOptions = {
+			theme :'custom',
+			custom_theme_widget :'recaptcha_widget'
+		};
+	</script>
+	<style>
+	#recaptcha_instructions_image, #recaptcha_instructions_audio, #recaptcha_instructions_error{
+		font-size: 10px !Important;	
+	}
+	</style>
+	<div id="recaptcha_widget" >
+	
+		<div id="recaptcha_image"></div>
+		<div class="recaptcha_only_if_incorrect_sol" >Ihre Eingabe stimmte nicht mit dem Captcha überein</div>
+		
+		<label  class="recaptcha_only_if_image">Geben Sie die abgebildeten Zeichen ein</label>
+		<label  class="recaptcha_only_if_audio">Geben Sie die abgebildeten Zeichen ein</label>
+		<br clear="both" />
+		<input type="text" id="recaptcha_response_field" name="recaptcha_response_field"   />
+		
+		<span><a href="javascript:Recaptcha.reload()" title="Ein anderes CAPTCHA anzeigen"><img class="captcha2_reload" width="16" height="16" title="" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAABZ0RVh0Q3JlYXRpb24gVGltZQAwMi8yNi8xM1b7mg4AAAAcdEVYdFNvZnR3YXJlAEFkb2JlIEZpcmV3b3JrcyBDUzbovLKMAAABbElEQVQ4jX3SzYuNYRgG8N875ywwsbEydt6FxAKz0VnJ4lYi+QcUC2kkzcrCQmo2NlIyf4ANiymLUTq3slEWyNZHvQrZ2RmKpnktzjk6HvO6dk/XdV/PdX9UbduaRmb2sIDzOIhfeIrliFhVoBoOh0fxKiLWMvMEruMw+oV2DUNci4h30wYr2IIXuFH+0IFTEfFoYnALix3CDTzGS/zEHhxDjfmIeN1H1VGcuBIRb/8hMs/iQmYuln1OsBwRl7ryR8S9zHyIagbbN9HMZ+buLoOxybeI+NHHCj4W/DYcwJf/mUBV3sFmyMy9OIfvJdc1gxKfjFq9WhK9wWBQNU2zta7r9a7quq7Xm6bZgTOYmeYmj4XMvNgRfzYzb+I+eiVftW0rM+fw2WiYT/DG6Ij24yTmutL9GWJmHsIzzHaJp7CK51j6awuZuQtLOI2dRdEGPuBuRNwe6/dtusbMPILLOD42eo8HuBMRX6e1vwHjhn64H/Px4QAAAABJRU5ErkJggg==" /></a></span>
+	
+	
+		
+		<a href="javascript:Recaptcha.showhelp()">Hilfe</a>
+	
+	</div>
+	<script type="text/javascript" src="//www.google.com/recaptcha/api/challenge?k=6Lekcd0SAAAAAM-G--Az_UDZy5ItISp4DbmGSMLT">
+	</script>
+	<noscript>
+	  <iframe src="//www.google.com/recaptcha/api/noscript?k=6Lekcd0SAAAAAM-G--Az_UDZy5ItISp4DbmGSMLT"
+	       height="300" width="500" frameborder="0"></iframe><br>
+	  <textarea name="recaptcha_challenge_field" rows="3" cols="40">
+	  </textarea>
+	  <input type="hidden" name="recaptcha_response_field"
+	       value="manual_challenge">
+	</noscript>
+	
+</div><div id="2958379" rel="button" class="cr_ipe_item ui-sortable submit_container" >
+<button type="submit" class="cr_button">Anmelden</button>
+</div><div id="2958382" rel="text" class="cr_ipe_item ui-sortable inactive musthave" >
+<label for="text2958382" class="itemname">Kalorienbedarf*</label> <input id="text2958382" name="1143823" type="text" value=""  />
+</div>
+	</div>
+	
+	<noscript><a href="http://www.cleverreach.de">www.CleverReach.de</a></noscript>
+</div>
+
+</form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  .caloryContainer{
+  width: 1300px;
+  margin: 0px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.stepElement{
+  flex: 1;
+  min-width: 280px;
+  max-width: 400px;
+  padding: 10px;
+  margin: 20px;
+}
+
+.elementHeader{
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.elementHeader .center{
+  background-color: black;
+  color: white;
+  width: 50px;
+  font-size: 50px;
+  line-height: 50px;
+  border-radius: 25px;
+  margin: auto 10px;
+  text-align: center;
+}
+
+.elementHeader .side{
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+  flex-grow: 2;
+  margin: auto;
+}
+
+.elementTitle{
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.elementTitle span{
+  margin: auto;
+  min-height: 64px;
+  font-size: 20px;
+  color: rgba(0,0,0,0.9);
+  font-weight: bold;
+  text-align: center;
+}
+
+.elementForm{
+  margin-bottom: 10px;
+}
+
+.elementForm .formRow{
+  width: 100%;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.elementForm .formGroup{
+  margin: auto;
+}
+
+.elementForm .formGroup input{
+  width: 50px;
+  text-align: center;
+  border: none;
+  border-bottom: 1px solid #9e9e9e;
+  font-size: 18px;
+}
+
+.elementForm .formGroup span{
+  font-size: 20px;
+}
+
+.elementForm .formGroup input:focus{
+  outline: none;
+}
+
+.genderElement input{
+  opacity: 0;
+  position: absolute;
+}
+
+.genderElement input + label{
+  width: 35px;
+  padding: 3px;
+  border: 1px solid black;
+  text-align: center;
+  z-index: 5;
+  margin: 0 15px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.genderElement input:checked + label{
+  border: 1px solid #1E73BE;
+  box-shadow: 0 0 0 2px #1E73BE;
+}
+
+
+.activityFormGroup{
+  width: 100%;
+}
+
+.activityRow{
+  display: flux;
+}
+
+.activityRow input[type="radio"]{
+  opacity: 0;
+  position: absolute;
+}
+
+.activityRow input + label{
+  display: block;
+  width: 250px;
+  border: 1px solid;
+  margin: 10px auto;
+  border: 1px solid black;
+  padding: 3px 0;
+  cursor: pointer;
+  border-radius: 4px;
+  
+  text-align: center;
+}
+
+.activityRow input:checked + label{
+  border: 1px solid #1E73BE;
+  box-shadow: 0 0 0 2px #1E73BE;
+}
+
+.optInContainer{
+  width: 100%;
+  margin: 0px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.optInElement{
+  flex: 1;
+  min-width: 100%;
+  padding: 10px;
+  margin: 20px;
+  font-size: 20px;
+}
+
+.optInElement .elementTitle{
+  height: 32px;
+}
+
+.optInElement .elementTitle span{
+  font-size: 20px;
+}
+
+.optInElement .elementForm input{
+  width: 250px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+#recaptcha_response_field{
+  width: 90%;
+}
+
+.cr_button{
+  width: 100%;
+  height: 40px;
+  font-size: 20px;
+  
+  background-color: black;
+  color: white;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.badge{
+  display: none;
+}
+
+.inactive{
+  display: none;
+}
+
+a[href="javascript:Recaptcha.showhelp()"]{
+  display: none;
+}
+
+
+</style>
